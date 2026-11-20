@@ -27,9 +27,9 @@ python3 -m http.server 8080
 | 路線 | 同梱データ |
 | --- | --- |
 | 京王井の頭線 | 京王の「下北沢駅 発車標準時刻表」PDF から取り込んだ実データ |
-| 小田急線 | **`scripts/generate-sample-data.mjs` で機械的に作ったサンプル。実際のダイヤとは違います** |
+| 小田急線 | 小田急の「下北沢駅 時刻表」PDF（2026 年 3 月 14 日・16 日改正）から取り込んだ実データ。両数は PDF にないため表示しません |
 
-サンプルの路線があるあいだは、画面下を流れる案内にその旨を表示します。
+`source` が `"sample"` の路線があると、画面下を流れる案内にサンプルである旨を表示します。
 
 ### 実データに差し替える
 
@@ -37,6 +37,12 @@ python3 -m http.server 8080
 
   ```sh
   python3 scripts/import-keio-pdf.py ~/Downloads/997.pdf
+  ```
+
+- **小田急の時刻表 PDF から取り込む場合（小田急線）**: 同じく次を実行します。PDF の文字は図形なので、数字や行先の印を形で見分けています。フォントやレイアウトが変わって見分けられない文字があると止まるので、そのときはスクリプト冒頭の説明に従って `GLYPHS` を作り直してください。
+
+  ```sh
+  python3 scripts/import-odakyu-pdf.py ~/Downloads/shimo_kitazawa.pdf
   ```
 
 - **手で書く場合**: 下の形式で `data/<路線ID>.json` を編集します。ダイヤ改正のたびに更新が必要です。
@@ -124,7 +130,7 @@ js/
   main.js              描画
   providers/           static / odpt の読み込みと共通形式への変換
 data/                  時刻表・天気の JSON
-scripts/               サンプル生成・ODPT 取り込み・京王 PDF 取り込み・天気取得
+scripts/               京王・小田急の PDF 取り込み・ODPT 取り込み・天気取得
 .github/workflows/     GitHub Pages への公開と毎朝の天気更新
 test/                  node --test によるテスト
 ```
