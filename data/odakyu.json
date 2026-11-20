@@ -1,0 +1,7866 @@
+{
+ "source": "sample",
+ "updated": "2026-11-20",
+ "directions": {
+  "up": {
+   "weekday": [
+    {
+     "time": "05:01",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "05:07",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "05:12",
+     "type": "local",
+     "dest": "代々木上原",
+     "cars": 8
+    },
+    {
+     "time": "05:16",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "05:22",
+     "type": "semiExpress",
+     "dest": "綾瀬",
+     "cars": 10
+    },
+    {
+     "time": "05:27",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "05:31",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "05:37",
+     "type": "semiExpress",
+     "dest": "北千住",
+     "cars": 10
+    },
+    {
+     "time": "05:42",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "05:46",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "05:52",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "05:57",
+     "type": "local",
+     "dest": "代々木上原",
+     "cars": 10
+    },
+    {
+     "time": "06:01",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "06:07",
+     "type": "semiExpress",
+     "dest": "綾瀬",
+     "cars": 10
+    },
+    {
+     "time": "06:12",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "06:16",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "06:22",
+     "type": "semiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "06:27",
+     "type": "local",
+     "dest": "代々木上原",
+     "cars": 8
+    },
+    {
+     "time": "06:31",
+     "type": "commuterSemiExpress",
+     "dest": "綾瀬",
+     "cars": 10
+    },
+    {
+     "time": "06:33",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "06:36",
+     "type": "commuterExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "06:38",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "06:40",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "06:41",
+     "type": "commuterSemiExpress",
+     "dest": "綾瀬",
+     "cars": 10
+    },
+    {
+     "time": "06:43",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "06:46",
+     "type": "commuterExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "06:48",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "06:50",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "06:51",
+     "type": "commuterSemiExpress",
+     "dest": "北千住",
+     "cars": 10
+    },
+    {
+     "time": "06:53",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "06:56",
+     "type": "commuterExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "06:58",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "07:00",
+     "type": "local",
+     "dest": "代々木上原",
+     "cars": 10
+    },
+    {
+     "time": "07:01",
+     "type": "commuterSemiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "07:03",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "07:06",
+     "type": "commuterExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "07:08",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "07:10",
+     "type": "local",
+     "dest": "代々木上原",
+     "cars": 10
+    },
+    {
+     "time": "07:11",
+     "type": "commuterSemiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "07:13",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "07:16",
+     "type": "commuterExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "07:18",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "07:20",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "07:21",
+     "type": "commuterSemiExpress",
+     "dest": "北千住",
+     "cars": 10
+    },
+    {
+     "time": "07:23",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "07:26",
+     "type": "commuterExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "07:28",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "07:30",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "07:31",
+     "type": "commuterSemiExpress",
+     "dest": "北千住",
+     "cars": 10
+    },
+    {
+     "time": "07:33",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "07:36",
+     "type": "commuterExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "07:38",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "07:40",
+     "type": "local",
+     "dest": "代々木上原",
+     "cars": 10
+    },
+    {
+     "time": "07:41",
+     "type": "commuterSemiExpress",
+     "dest": "綾瀬",
+     "cars": 10
+    },
+    {
+     "time": "07:43",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "07:46",
+     "type": "commuterExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "07:48",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "07:50",
+     "type": "local",
+     "dest": "代々木上原",
+     "cars": 10
+    },
+    {
+     "time": "07:51",
+     "type": "commuterSemiExpress",
+     "dest": "北千住",
+     "cars": 10
+    },
+    {
+     "time": "07:53",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "07:56",
+     "type": "commuterExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "07:58",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "08:00",
+     "type": "local",
+     "dest": "代々木上原",
+     "cars": 8
+    },
+    {
+     "time": "08:01",
+     "type": "commuterSemiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "08:03",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "08:06",
+     "type": "commuterExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "08:08",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "08:10",
+     "type": "local",
+     "dest": "代々木上原",
+     "cars": 10
+    },
+    {
+     "time": "08:11",
+     "type": "commuterSemiExpress",
+     "dest": "綾瀬",
+     "cars": 10
+    },
+    {
+     "time": "08:13",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "08:16",
+     "type": "commuterExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "08:18",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "08:20",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "08:21",
+     "type": "commuterSemiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "08:23",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "08:26",
+     "type": "commuterExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "08:28",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "08:30",
+     "type": "local",
+     "dest": "代々木上原",
+     "cars": 6
+    },
+    {
+     "time": "08:31",
+     "type": "commuterSemiExpress",
+     "dest": "北千住",
+     "cars": 10
+    },
+    {
+     "time": "08:33",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "08:36",
+     "type": "commuterExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "08:38",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "08:40",
+     "type": "local",
+     "dest": "代々木上原",
+     "cars": 8
+    },
+    {
+     "time": "08:41",
+     "type": "commuterSemiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "08:43",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "08:46",
+     "type": "commuterExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "08:48",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "08:50",
+     "type": "local",
+     "dest": "代々木上原",
+     "cars": 6
+    },
+    {
+     "time": "08:51",
+     "type": "commuterSemiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "08:53",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "08:56",
+     "type": "commuterExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "08:58",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "09:00",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "09:01",
+     "type": "commuterSemiExpress",
+     "dest": "綾瀬",
+     "cars": 10
+    },
+    {
+     "time": "09:03",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "09:06",
+     "type": "commuterExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "09:08",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "09:10",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "09:11",
+     "type": "commuterSemiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "09:13",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "09:16",
+     "type": "commuterExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "09:18",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "09:20",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "09:21",
+     "type": "commuterSemiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "09:23",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "09:26",
+     "type": "commuterExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "09:28",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "09:31",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "09:34",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "09:38",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "09:41",
+     "type": "semiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "09:44",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "09:48",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "09:51",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "09:54",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "09:58",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "10:01",
+     "type": "semiExpress",
+     "dest": "綾瀬",
+     "cars": 10
+    },
+    {
+     "time": "10:04",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "10:08",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "10:11",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "10:14",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "10:18",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "10:21",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "10:24",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "10:28",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "10:31",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "10:34",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "10:38",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "10:41",
+     "type": "semiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "10:44",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "10:48",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "10:51",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "10:54",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "10:58",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "11:01",
+     "type": "semiExpress",
+     "dest": "綾瀬",
+     "cars": 10
+    },
+    {
+     "time": "11:04",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "11:08",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "11:11",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "11:14",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "11:18",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "11:21",
+     "type": "semiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "11:24",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "11:28",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "11:31",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "11:34",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "11:38",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "11:41",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "11:44",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "11:48",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "11:51",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "11:54",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "11:58",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "12:01",
+     "type": "semiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "12:04",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "12:08",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "12:11",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "12:14",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "12:18",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "12:21",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "12:24",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "12:28",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "12:31",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "12:34",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "12:38",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "12:41",
+     "type": "semiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "12:44",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "12:48",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "12:51",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "12:54",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "12:58",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "13:01",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "13:04",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "13:08",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "13:11",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "13:14",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "13:18",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "13:21",
+     "type": "semiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "13:24",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "13:28",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "13:31",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "13:34",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "13:38",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "13:41",
+     "type": "semiExpress",
+     "dest": "綾瀬",
+     "cars": 10
+    },
+    {
+     "time": "13:44",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "13:48",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "13:51",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "13:54",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "13:58",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "14:01",
+     "type": "semiExpress",
+     "dest": "綾瀬",
+     "cars": 10
+    },
+    {
+     "time": "14:04",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "14:08",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "14:11",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "14:14",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "14:18",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "14:21",
+     "type": "semiExpress",
+     "dest": "綾瀬",
+     "cars": 10
+    },
+    {
+     "time": "14:24",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "14:28",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "14:31",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "14:34",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "14:38",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "14:41",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "14:44",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "14:48",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "14:51",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "14:54",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "14:58",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "15:01",
+     "type": "semiExpress",
+     "dest": "綾瀬",
+     "cars": 10
+    },
+    {
+     "time": "15:04",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "15:08",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "15:11",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "15:14",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "15:18",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "15:21",
+     "type": "semiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "15:24",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "15:28",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "15:31",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "15:34",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "15:38",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "15:41",
+     "type": "semiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "15:44",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "15:48",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "15:51",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "15:54",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "15:58",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "16:01",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "16:04",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "16:08",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "16:11",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "16:14",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "16:18",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "16:21",
+     "type": "semiExpress",
+     "dest": "北千住",
+     "cars": 10
+    },
+    {
+     "time": "16:24",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "16:28",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "16:31",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "16:34",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "16:38",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "16:41",
+     "type": "semiExpress",
+     "dest": "綾瀬",
+     "cars": 10
+    },
+    {
+     "time": "16:44",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "16:48",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "16:51",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "16:54",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "16:58",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "17:01",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "17:05",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "17:09",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "17:12",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "17:16",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "17:20",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "17:24",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "17:27",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "17:31",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "17:35",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "17:39",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "17:42",
+     "type": "semiExpress",
+     "dest": "北千住",
+     "cars": 10
+    },
+    {
+     "time": "17:46",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "17:50",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "17:54",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "17:57",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "18:01",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "18:05",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "18:09",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "18:12",
+     "type": "semiExpress",
+     "dest": "綾瀬",
+     "cars": 10
+    },
+    {
+     "time": "18:16",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "18:20",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "18:24",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "18:27",
+     "type": "semiExpress",
+     "dest": "綾瀬",
+     "cars": 10
+    },
+    {
+     "time": "18:31",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "18:35",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "18:39",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "18:42",
+     "type": "semiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "18:46",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "18:50",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "18:54",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "18:57",
+     "type": "semiExpress",
+     "dest": "北千住",
+     "cars": 10
+    },
+    {
+     "time": "19:01",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "19:05",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "19:09",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "19:12",
+     "type": "semiExpress",
+     "dest": "北千住",
+     "cars": 10
+    },
+    {
+     "time": "19:16",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "19:20",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "19:24",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "19:27",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "19:31",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "19:35",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "19:39",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "19:42",
+     "type": "semiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "19:46",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "19:50",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "19:54",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "19:57",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "20:01",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "20:05",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "20:09",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "20:12",
+     "type": "semiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "20:16",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "20:20",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "20:24",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "20:27",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "20:31",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "20:35",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "20:39",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "20:42",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "20:46",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "20:50",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "20:54",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "20:57",
+     "type": "semiExpress",
+     "dest": "綾瀬",
+     "cars": 10
+    },
+    {
+     "time": "21:01",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "21:05",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "21:09",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "21:12",
+     "type": "semiExpress",
+     "dest": "綾瀬",
+     "cars": 10
+    },
+    {
+     "time": "21:16",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "21:20",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "21:24",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "21:27",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "21:31",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "21:35",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "21:39",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "21:42",
+     "type": "semiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "21:46",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "21:50",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "21:54",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "21:57",
+     "type": "semiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "22:01",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "22:07",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "22:12",
+     "type": "local",
+     "dest": "代々木上原",
+     "cars": 10
+    },
+    {
+     "time": "22:16",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "22:22",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "22:27",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "22:31",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "22:37",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "22:42",
+     "type": "local",
+     "dest": "代々木上原",
+     "cars": 10
+    },
+    {
+     "time": "22:46",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "22:52",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "22:57",
+     "type": "local",
+     "dest": "代々木上原",
+     "cars": 10
+    },
+    {
+     "time": "23:01",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "23:07",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "23:12",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "23:16",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "23:22",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "23:27",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "23:31",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "23:37",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "23:42",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "23:46",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "23:52",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "23:57",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "24:01",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "24:07",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "24:12",
+     "type": "local",
+     "dest": "代々木上原",
+     "cars": 8
+    },
+    {
+     "time": "24:16",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "24:22",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "24:27",
+     "type": "local",
+     "dest": "代々木上原",
+     "cars": 10
+    }
+   ],
+   "holiday": [
+    {
+     "time": "05:01",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "05:07",
+     "type": "semiExpress",
+     "dest": "北千住",
+     "cars": 10
+    },
+    {
+     "time": "05:12",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "05:16",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "05:22",
+     "type": "semiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "05:27",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "05:31",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "05:37",
+     "type": "semiExpress",
+     "dest": "綾瀬",
+     "cars": 10
+    },
+    {
+     "time": "05:42",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "05:46",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "05:52",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "05:57",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "06:01",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "06:07",
+     "type": "semiExpress",
+     "dest": "北千住",
+     "cars": 10
+    },
+    {
+     "time": "06:12",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "06:16",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "06:22",
+     "type": "semiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "06:27",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "06:31",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "06:37",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "06:42",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "06:46",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "06:52",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "06:57",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "07:01",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "07:04",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "07:08",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "07:11",
+     "type": "semiExpress",
+     "dest": "北千住",
+     "cars": 10
+    },
+    {
+     "time": "07:14",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "07:18",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "07:21",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "07:24",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "07:28",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "07:31",
+     "type": "semiExpress",
+     "dest": "北千住",
+     "cars": 10
+    },
+    {
+     "time": "07:34",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "07:38",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "07:41",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "07:44",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "07:48",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "07:51",
+     "type": "semiExpress",
+     "dest": "綾瀬",
+     "cars": 10
+    },
+    {
+     "time": "07:54",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "07:58",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "08:01",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "08:04",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "08:08",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "08:11",
+     "type": "semiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "08:14",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "08:18",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "08:21",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "08:24",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "08:28",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "08:31",
+     "type": "semiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "08:34",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "08:38",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "08:41",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "08:44",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "08:48",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "08:51",
+     "type": "semiExpress",
+     "dest": "北千住",
+     "cars": 10
+    },
+    {
+     "time": "08:54",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "08:58",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "09:01",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "09:04",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "09:08",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "09:11",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "09:14",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "09:18",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "09:21",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "09:24",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "09:28",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "09:31",
+     "type": "semiExpress",
+     "dest": "綾瀬",
+     "cars": 10
+    },
+    {
+     "time": "09:34",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "09:38",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "09:41",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "09:44",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "09:48",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "09:51",
+     "type": "semiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "09:54",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "09:58",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "10:01",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "10:04",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "10:08",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "10:11",
+     "type": "semiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "10:14",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "10:18",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "10:21",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "10:24",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "10:28",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "10:31",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "10:34",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "10:38",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "10:41",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "10:44",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "10:48",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "10:51",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "10:54",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "10:58",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "11:01",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "11:04",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "11:08",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "11:11",
+     "type": "semiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "11:14",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "11:18",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "11:21",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "11:24",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "11:28",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "11:31",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "11:34",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "11:38",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "11:41",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "11:44",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "11:48",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "11:51",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "11:54",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "11:58",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "12:01",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "12:04",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "12:08",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "12:11",
+     "type": "semiExpress",
+     "dest": "綾瀬",
+     "cars": 10
+    },
+    {
+     "time": "12:14",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "12:18",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "12:21",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "12:24",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "12:28",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "12:31",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "12:34",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "12:38",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "12:41",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "12:44",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "12:48",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "12:51",
+     "type": "semiExpress",
+     "dest": "北千住",
+     "cars": 10
+    },
+    {
+     "time": "12:54",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "12:58",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "13:01",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "13:04",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "13:08",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "13:11",
+     "type": "semiExpress",
+     "dest": "北千住",
+     "cars": 10
+    },
+    {
+     "time": "13:14",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "13:18",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "13:21",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "13:24",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "13:28",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "13:31",
+     "type": "semiExpress",
+     "dest": "北千住",
+     "cars": 10
+    },
+    {
+     "time": "13:34",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "13:38",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "13:41",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "13:44",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "13:48",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "13:51",
+     "type": "semiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "13:54",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "13:58",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "14:01",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "14:04",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "14:08",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "14:11",
+     "type": "semiExpress",
+     "dest": "綾瀬",
+     "cars": 10
+    },
+    {
+     "time": "14:14",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "14:18",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "14:21",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "14:24",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "14:28",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "14:31",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "14:34",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "14:38",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "14:41",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "14:44",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "14:48",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "14:51",
+     "type": "semiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "14:54",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "14:58",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "15:01",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "15:04",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "15:08",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "15:11",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "15:14",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "15:18",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "15:21",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "15:24",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "15:28",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "15:31",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "15:34",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "15:38",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "15:41",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "15:44",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "15:48",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "15:51",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "15:54",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "15:58",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "16:01",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "16:04",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "16:08",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "16:11",
+     "type": "semiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "16:14",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "16:18",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "16:21",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "16:24",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "16:28",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "16:31",
+     "type": "semiExpress",
+     "dest": "綾瀬",
+     "cars": 10
+    },
+    {
+     "time": "16:34",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "16:38",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "16:41",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "16:44",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "16:48",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "16:51",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "16:54",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "16:58",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "17:01",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "17:04",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "17:08",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "17:11",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "17:14",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "17:18",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "17:21",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "17:24",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "17:28",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "17:31",
+     "type": "semiExpress",
+     "dest": "北千住",
+     "cars": 10
+    },
+    {
+     "time": "17:34",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "17:38",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "17:41",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "17:44",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "17:48",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "17:51",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "17:54",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "17:58",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "18:01",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "18:04",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "18:08",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "18:11",
+     "type": "semiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "18:14",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "18:18",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "18:21",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "18:24",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "18:28",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "18:31",
+     "type": "semiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "18:34",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "18:38",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "18:41",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "18:44",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "18:48",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "18:51",
+     "type": "semiExpress",
+     "dest": "綾瀬",
+     "cars": 10
+    },
+    {
+     "time": "18:54",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "18:58",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "19:01",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "19:04",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "19:08",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "19:11",
+     "type": "semiExpress",
+     "dest": "我孫子",
+     "cars": 10
+    },
+    {
+     "time": "19:14",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "19:18",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "19:21",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "19:24",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "19:28",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "19:31",
+     "type": "semiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "19:34",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "19:38",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "19:41",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "19:44",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "19:48",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "19:51",
+     "type": "semiExpress",
+     "dest": "北千住",
+     "cars": 10
+    },
+    {
+     "time": "19:54",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "19:58",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "20:01",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "20:04",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "20:08",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "20:11",
+     "type": "semiExpress",
+     "dest": "北千住",
+     "cars": 10
+    },
+    {
+     "time": "20:14",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "20:18",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "20:21",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "20:24",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "20:28",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "20:31",
+     "type": "semiExpress",
+     "dest": "北千住",
+     "cars": 10
+    },
+    {
+     "time": "20:34",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "20:38",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "20:41",
+     "type": "rapidExpress",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "20:44",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "20:48",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "20:51",
+     "type": "semiExpress",
+     "dest": "取手",
+     "cars": 10
+    },
+    {
+     "time": "20:54",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "20:58",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "21:01",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "21:07",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "21:12",
+     "type": "local",
+     "dest": "代々木上原",
+     "cars": 10
+    },
+    {
+     "time": "21:16",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "21:22",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "21:27",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "21:31",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "21:37",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "21:42",
+     "type": "local",
+     "dest": "代々木上原",
+     "cars": 6
+    },
+    {
+     "time": "21:46",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "21:52",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "21:57",
+     "type": "local",
+     "dest": "代々木上原",
+     "cars": 8
+    },
+    {
+     "time": "22:01",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "22:07",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "22:12",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "22:16",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "22:22",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "22:27",
+     "type": "local",
+     "dest": "代々木上原",
+     "cars": 10
+    },
+    {
+     "time": "22:31",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "22:37",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "22:42",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "22:46",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "22:52",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "22:57",
+     "type": "local",
+     "dest": "代々木上原",
+     "cars": 8
+    },
+    {
+     "time": "23:01",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "23:07",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "23:12",
+     "type": "local",
+     "dest": "代々木上原",
+     "cars": 10
+    },
+    {
+     "time": "23:16",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "23:22",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "23:27",
+     "type": "local",
+     "dest": "代々木上原",
+     "cars": 10
+    },
+    {
+     "time": "23:31",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "23:37",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 8
+    },
+    {
+     "time": "23:42",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 6
+    },
+    {
+     "time": "23:46",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "23:52",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "23:57",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "24:01",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "24:07",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "24:12",
+     "type": "local",
+     "dest": "代々木上原",
+     "cars": 8
+    },
+    {
+     "time": "24:16",
+     "type": "express",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "24:22",
+     "type": "local",
+     "dest": "新宿",
+     "cars": 10
+    },
+    {
+     "time": "24:27",
+     "type": "local",
+     "dest": "代々木上原",
+     "cars": 10
+    }
+   ]
+  },
+  "down": {
+   "weekday": [
+    {
+     "time": "05:02",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "05:09",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "05:17",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "05:24",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "05:32",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "05:39",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "05:47",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 6
+    },
+    {
+     "time": "05:54",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "06:02",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 6
+    },
+    {
+     "time": "06:09",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "06:17",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "06:24",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "06:30",
+     "type": "local",
+     "dest": "成城学園前",
+     "cars": 10
+    },
+    {
+     "time": "06:34",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "06:38",
+     "type": "rapidExpress",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "06:42",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "06:46",
+     "type": "express",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "06:50",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "06:54",
+     "type": "local",
+     "dest": "成城学園前",
+     "cars": 8
+    },
+    {
+     "time": "06:58",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "07:02",
+     "type": "rapidExpress",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "07:06",
+     "type": "local",
+     "dest": "成城学園前",
+     "cars": 6
+    },
+    {
+     "time": "07:10",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "07:14",
+     "type": "rapidExpress",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "07:18",
+     "type": "local",
+     "dest": "成城学園前",
+     "cars": 10
+    },
+    {
+     "time": "07:22",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "07:26",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "07:30",
+     "type": "local",
+     "dest": "成城学園前",
+     "cars": 6
+    },
+    {
+     "time": "07:34",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "07:38",
+     "type": "rapidExpress",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "07:42",
+     "type": "local",
+     "dest": "成城学園前",
+     "cars": 6
+    },
+    {
+     "time": "07:46",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "07:50",
+     "type": "rapidExpress",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "07:54",
+     "type": "local",
+     "dest": "成城学園前",
+     "cars": 6
+    },
+    {
+     "time": "07:58",
+     "type": "express",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "08:02",
+     "type": "rapidExpress",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "08:06",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 6
+    },
+    {
+     "time": "08:10",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "08:14",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "08:18",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 6
+    },
+    {
+     "time": "08:22",
+     "type": "express",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "08:26",
+     "type": "rapidExpress",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "08:30",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "08:34",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "08:38",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "08:42",
+     "type": "local",
+     "dest": "成城学園前",
+     "cars": 6
+    },
+    {
+     "time": "08:46",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "08:50",
+     "type": "rapidExpress",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "08:54",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 6
+    },
+    {
+     "time": "08:58",
+     "type": "express",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "09:02",
+     "type": "rapidExpress",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "09:06",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 6
+    },
+    {
+     "time": "09:10",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "09:14",
+     "type": "rapidExpress",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "09:18",
+     "type": "local",
+     "dest": "成城学園前",
+     "cars": 10
+    },
+    {
+     "time": "09:22",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "09:26",
+     "type": "rapidExpress",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "09:31",
+     "type": "rapidExpress",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "09:35",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 6
+    },
+    {
+     "time": "09:39",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "09:42",
+     "type": "semiExpress",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "09:45",
+     "type": "local",
+     "dest": "唐木田",
+     "cars": 8
+    },
+    {
+     "time": "09:48",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "09:51",
+     "type": "rapidExpress",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "09:55",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 8
+    },
+    {
+     "time": "09:59",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "10:02",
+     "type": "semiExpress",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "10:05",
+     "type": "local",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "10:08",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "10:11",
+     "type": "rapidExpress",
+     "dest": "片瀬江ノ島",
+     "cars": 10
+    },
+    {
+     "time": "10:15",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "10:19",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "10:22",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "10:25",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 8
+    },
+    {
+     "time": "10:28",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "10:31",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "10:35",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "10:39",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "10:42",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "10:45",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 8
+    },
+    {
+     "time": "10:48",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "10:51",
+     "type": "rapidExpress",
+     "dest": "片瀬江ノ島",
+     "cars": 10
+    },
+    {
+     "time": "10:55",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 8
+    },
+    {
+     "time": "10:59",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "11:02",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "11:05",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 10
+    },
+    {
+     "time": "11:08",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "11:11",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "11:15",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "11:19",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "11:22",
+     "type": "semiExpress",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "11:25",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 10
+    },
+    {
+     "time": "11:28",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "11:31",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "11:35",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "11:39",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "11:42",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "11:45",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 10
+    },
+    {
+     "time": "11:48",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "11:51",
+     "type": "rapidExpress",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "11:55",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "11:59",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "12:02",
+     "type": "semiExpress",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "12:05",
+     "type": "local",
+     "dest": "唐木田",
+     "cars": 6
+    },
+    {
+     "time": "12:08",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "12:11",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "12:15",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "12:19",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "12:22",
+     "type": "semiExpress",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "12:25",
+     "type": "local",
+     "dest": "唐木田",
+     "cars": 8
+    },
+    {
+     "time": "12:28",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "12:31",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "12:35",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 8
+    },
+    {
+     "time": "12:39",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "12:42",
+     "type": "semiExpress",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "12:45",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 6
+    },
+    {
+     "time": "12:48",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "12:51",
+     "type": "rapidExpress",
+     "dest": "片瀬江ノ島",
+     "cars": 10
+    },
+    {
+     "time": "12:55",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "12:59",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "13:02",
+     "type": "semiExpress",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "13:05",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 8
+    },
+    {
+     "time": "13:08",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "13:11",
+     "type": "rapidExpress",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "13:15",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "13:19",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "13:22",
+     "type": "semiExpress",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "13:25",
+     "type": "local",
+     "dest": "唐木田",
+     "cars": 6
+    },
+    {
+     "time": "13:28",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "13:31",
+     "type": "rapidExpress",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "13:35",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "13:39",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "13:42",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "13:45",
+     "type": "local",
+     "dest": "唐木田",
+     "cars": 6
+    },
+    {
+     "time": "13:48",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "13:51",
+     "type": "rapidExpress",
+     "dest": "片瀬江ノ島",
+     "cars": 10
+    },
+    {
+     "time": "13:55",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 8
+    },
+    {
+     "time": "13:59",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "14:02",
+     "type": "semiExpress",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "14:05",
+     "type": "local",
+     "dest": "唐木田",
+     "cars": 6
+    },
+    {
+     "time": "14:08",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "14:11",
+     "type": "rapidExpress",
+     "dest": "片瀬江ノ島",
+     "cars": 10
+    },
+    {
+     "time": "14:15",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 8
+    },
+    {
+     "time": "14:19",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "14:22",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "14:25",
+     "type": "local",
+     "dest": "唐木田",
+     "cars": 8
+    },
+    {
+     "time": "14:28",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "14:31",
+     "type": "rapidExpress",
+     "dest": "片瀬江ノ島",
+     "cars": 10
+    },
+    {
+     "time": "14:35",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "14:39",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "14:42",
+     "type": "semiExpress",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "14:45",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 6
+    },
+    {
+     "time": "14:48",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "14:51",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "14:55",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 6
+    },
+    {
+     "time": "14:59",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "15:02",
+     "type": "semiExpress",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "15:05",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 8
+    },
+    {
+     "time": "15:08",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "15:11",
+     "type": "rapidExpress",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "15:15",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "15:19",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "15:22",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "15:25",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 8
+    },
+    {
+     "time": "15:28",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "15:31",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "15:35",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "15:39",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "15:42",
+     "type": "semiExpress",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "15:45",
+     "type": "local",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "15:48",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "15:51",
+     "type": "rapidExpress",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "15:55",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 8
+    },
+    {
+     "time": "15:59",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "16:02",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "16:05",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 6
+    },
+    {
+     "time": "16:08",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "16:11",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "16:15",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "16:19",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "16:22",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "16:25",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 10
+    },
+    {
+     "time": "16:28",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "16:31",
+     "type": "rapidExpress",
+     "dest": "片瀬江ノ島",
+     "cars": 10
+    },
+    {
+     "time": "16:35",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 6
+    },
+    {
+     "time": "16:39",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "16:42",
+     "type": "semiExpress",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "16:45",
+     "type": "local",
+     "dest": "唐木田",
+     "cars": 8
+    },
+    {
+     "time": "16:48",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "16:51",
+     "type": "rapidExpress",
+     "dest": "片瀬江ノ島",
+     "cars": 10
+    },
+    {
+     "time": "16:55",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 6
+    },
+    {
+     "time": "16:59",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "17:00",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "17:03",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 6
+    },
+    {
+     "time": "17:07",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "17:10",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "17:12",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "17:15",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "17:19",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "17:22",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "17:24",
+     "type": "rapidExpress",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "17:27",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "17:31",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "17:34",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "17:36",
+     "type": "rapidExpress",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "17:39",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "17:43",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "17:46",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "17:48",
+     "type": "rapidExpress",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "17:51",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "17:55",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "17:58",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "18:00",
+     "type": "rapidExpress",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "18:03",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 6
+    },
+    {
+     "time": "18:07",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "18:10",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "18:12",
+     "type": "rapidExpress",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "18:15",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 8
+    },
+    {
+     "time": "18:19",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "18:22",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "18:24",
+     "type": "rapidExpress",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "18:27",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 8
+    },
+    {
+     "time": "18:31",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "18:34",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "18:36",
+     "type": "rapidExpress",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "18:39",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 6
+    },
+    {
+     "time": "18:43",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "18:46",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "18:48",
+     "type": "rapidExpress",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "18:51",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 8
+    },
+    {
+     "time": "18:55",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "18:58",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "19:00",
+     "type": "rapidExpress",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "19:03",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "19:07",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "19:10",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "19:12",
+     "type": "rapidExpress",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "19:15",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 6
+    },
+    {
+     "time": "19:19",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "19:22",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "19:24",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "19:27",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 8
+    },
+    {
+     "time": "19:31",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "19:34",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "19:36",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "19:39",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "19:43",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "19:46",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "19:48",
+     "type": "rapidExpress",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "19:51",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 6
+    },
+    {
+     "time": "19:55",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "19:58",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "20:00",
+     "type": "rapidExpress",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "20:03",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 6
+    },
+    {
+     "time": "20:07",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "20:10",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "20:12",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "20:15",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 8
+    },
+    {
+     "time": "20:19",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "20:22",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "20:24",
+     "type": "rapidExpress",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "20:27",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 6
+    },
+    {
+     "time": "20:31",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "20:34",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "20:36",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "20:39",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 6
+    },
+    {
+     "time": "20:43",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "20:46",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "20:48",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "20:51",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 8
+    },
+    {
+     "time": "20:55",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "20:58",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "21:00",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "21:03",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 8
+    },
+    {
+     "time": "21:07",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "21:10",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "21:12",
+     "type": "rapidExpress",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "21:15",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 8
+    },
+    {
+     "time": "21:19",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "21:22",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "21:24",
+     "type": "rapidExpress",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "21:27",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 8
+    },
+    {
+     "time": "21:31",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "21:34",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "21:36",
+     "type": "rapidExpress",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "21:39",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 6
+    },
+    {
+     "time": "21:43",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "21:46",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "21:48",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "21:51",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "21:55",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "21:58",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "22:00",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "22:05",
+     "type": "local",
+     "dest": "成城学園前",
+     "cars": 8
+    },
+    {
+     "time": "22:10",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 6
+    },
+    {
+     "time": "22:15",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "22:20",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "22:25",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 8
+    },
+    {
+     "time": "22:30",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "22:35",
+     "type": "local",
+     "dest": "成城学園前",
+     "cars": 8
+    },
+    {
+     "time": "22:40",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 6
+    },
+    {
+     "time": "22:45",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "22:50",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 8
+    },
+    {
+     "time": "22:55",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 6
+    },
+    {
+     "time": "23:00",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "23:05",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "23:10",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 8
+    },
+    {
+     "time": "23:15",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "23:20",
+     "type": "local",
+     "dest": "成城学園前",
+     "cars": 10
+    },
+    {
+     "time": "23:25",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 6
+    },
+    {
+     "time": "23:30",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "23:35",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "23:40",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 10
+    },
+    {
+     "time": "23:45",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "23:50",
+     "type": "local",
+     "dest": "成城学園前",
+     "cars": 10
+    },
+    {
+     "time": "23:55",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 10
+    },
+    {
+     "time": "24:00",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "24:05",
+     "type": "local",
+     "dest": "成城学園前",
+     "cars": 10
+    },
+    {
+     "time": "24:10",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 10
+    },
+    {
+     "time": "24:15",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "24:20",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "24:25",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 6
+    },
+    {
+     "time": "24:30",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "24:35",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 6
+    },
+    {
+     "time": "24:40",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 10
+    }
+   ],
+   "holiday": [
+    {
+     "time": "05:02",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 6
+    },
+    {
+     "time": "05:09",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "05:17",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "05:24",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "05:32",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 8
+    },
+    {
+     "time": "05:39",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "05:47",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "05:54",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "06:02",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "06:09",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "06:17",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "06:24",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "06:32",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 8
+    },
+    {
+     "time": "06:39",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "06:47",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "06:54",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "07:01",
+     "type": "rapidExpress",
+     "dest": "片瀬江ノ島",
+     "cars": 10
+    },
+    {
+     "time": "07:05",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "07:09",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "07:12",
+     "type": "semiExpress",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "07:15",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 10
+    },
+    {
+     "time": "07:18",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "07:21",
+     "type": "rapidExpress",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "07:25",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 6
+    },
+    {
+     "time": "07:29",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "07:32",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "07:35",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 10
+    },
+    {
+     "time": "07:38",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "07:41",
+     "type": "rapidExpress",
+     "dest": "片瀬江ノ島",
+     "cars": 10
+    },
+    {
+     "time": "07:45",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 8
+    },
+    {
+     "time": "07:49",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "07:52",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "07:55",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 10
+    },
+    {
+     "time": "07:58",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "08:01",
+     "type": "rapidExpress",
+     "dest": "片瀬江ノ島",
+     "cars": 10
+    },
+    {
+     "time": "08:05",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 6
+    },
+    {
+     "time": "08:09",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "08:12",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "08:15",
+     "type": "local",
+     "dest": "唐木田",
+     "cars": 8
+    },
+    {
+     "time": "08:18",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "08:21",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "08:25",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 8
+    },
+    {
+     "time": "08:29",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "08:32",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "08:35",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 8
+    },
+    {
+     "time": "08:38",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "08:41",
+     "type": "rapidExpress",
+     "dest": "片瀬江ノ島",
+     "cars": 10
+    },
+    {
+     "time": "08:45",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "08:49",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "08:52",
+     "type": "semiExpress",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "08:55",
+     "type": "local",
+     "dest": "唐木田",
+     "cars": 8
+    },
+    {
+     "time": "08:58",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "09:01",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "09:05",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "09:09",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "09:12",
+     "type": "semiExpress",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "09:15",
+     "type": "local",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "09:18",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "09:21",
+     "type": "rapidExpress",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "09:25",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 8
+    },
+    {
+     "time": "09:29",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "09:32",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "09:35",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 8
+    },
+    {
+     "time": "09:38",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "09:41",
+     "type": "rapidExpress",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "09:45",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "09:49",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "09:52",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "09:55",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 6
+    },
+    {
+     "time": "09:58",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "10:01",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "10:05",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "10:09",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "10:12",
+     "type": "semiExpress",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "10:15",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 10
+    },
+    {
+     "time": "10:18",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "10:21",
+     "type": "rapidExpress",
+     "dest": "片瀬江ノ島",
+     "cars": 10
+    },
+    {
+     "time": "10:25",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 6
+    },
+    {
+     "time": "10:29",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "10:32",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "10:35",
+     "type": "local",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "10:38",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "10:41",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "10:45",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 6
+    },
+    {
+     "time": "10:49",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "10:52",
+     "type": "semiExpress",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "10:55",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 10
+    },
+    {
+     "time": "10:58",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "11:01",
+     "type": "rapidExpress",
+     "dest": "片瀬江ノ島",
+     "cars": 10
+    },
+    {
+     "time": "11:05",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 6
+    },
+    {
+     "time": "11:09",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "11:12",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "11:15",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 10
+    },
+    {
+     "time": "11:18",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "11:21",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "11:25",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "11:29",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "11:32",
+     "type": "semiExpress",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "11:35",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 6
+    },
+    {
+     "time": "11:38",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "11:41",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "11:45",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 8
+    },
+    {
+     "time": "11:49",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "11:52",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "11:55",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 8
+    },
+    {
+     "time": "11:58",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "12:01",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "12:05",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "12:09",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "12:12",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "12:15",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 8
+    },
+    {
+     "time": "12:18",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "12:21",
+     "type": "rapidExpress",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "12:25",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "12:29",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "12:32",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "12:35",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 10
+    },
+    {
+     "time": "12:38",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "12:41",
+     "type": "rapidExpress",
+     "dest": "片瀬江ノ島",
+     "cars": 10
+    },
+    {
+     "time": "12:45",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "12:49",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "12:52",
+     "type": "semiExpress",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "12:55",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 10
+    },
+    {
+     "time": "12:58",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "13:01",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "13:05",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "13:09",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "13:12",
+     "type": "semiExpress",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "13:15",
+     "type": "local",
+     "dest": "唐木田",
+     "cars": 6
+    },
+    {
+     "time": "13:18",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "13:21",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "13:25",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "13:29",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "13:32",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "13:35",
+     "type": "local",
+     "dest": "唐木田",
+     "cars": 6
+    },
+    {
+     "time": "13:38",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "13:41",
+     "type": "rapidExpress",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "13:45",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "13:49",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "13:52",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "13:55",
+     "type": "local",
+     "dest": "唐木田",
+     "cars": 6
+    },
+    {
+     "time": "13:58",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "14:01",
+     "type": "rapidExpress",
+     "dest": "片瀬江ノ島",
+     "cars": 10
+    },
+    {
+     "time": "14:05",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "14:09",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "14:12",
+     "type": "semiExpress",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "14:15",
+     "type": "local",
+     "dest": "唐木田",
+     "cars": 8
+    },
+    {
+     "time": "14:18",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "14:21",
+     "type": "rapidExpress",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "14:25",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "14:29",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "14:32",
+     "type": "semiExpress",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "14:35",
+     "type": "local",
+     "dest": "唐木田",
+     "cars": 8
+    },
+    {
+     "time": "14:38",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "14:41",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "14:45",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "14:49",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "14:52",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "14:55",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 10
+    },
+    {
+     "time": "14:58",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "15:01",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "15:05",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 6
+    },
+    {
+     "time": "15:09",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "15:12",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "15:15",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 8
+    },
+    {
+     "time": "15:18",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "15:21",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "15:25",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 6
+    },
+    {
+     "time": "15:29",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "15:32",
+     "type": "semiExpress",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "15:35",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 10
+    },
+    {
+     "time": "15:38",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "15:41",
+     "type": "rapidExpress",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "15:45",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "15:49",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "15:52",
+     "type": "semiExpress",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "15:55",
+     "type": "local",
+     "dest": "唐木田",
+     "cars": 8
+    },
+    {
+     "time": "15:58",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "16:01",
+     "type": "rapidExpress",
+     "dest": "片瀬江ノ島",
+     "cars": 10
+    },
+    {
+     "time": "16:05",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 8
+    },
+    {
+     "time": "16:09",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "16:12",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "16:15",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 8
+    },
+    {
+     "time": "16:18",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "16:21",
+     "type": "rapidExpress",
+     "dest": "片瀬江ノ島",
+     "cars": 10
+    },
+    {
+     "time": "16:25",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "16:29",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "16:32",
+     "type": "semiExpress",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "16:35",
+     "type": "local",
+     "dest": "唐木田",
+     "cars": 6
+    },
+    {
+     "time": "16:38",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "16:41",
+     "type": "rapidExpress",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "16:45",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "16:49",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "16:52",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "16:55",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 8
+    },
+    {
+     "time": "16:58",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "17:01",
+     "type": "rapidExpress",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "17:05",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "17:09",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "17:12",
+     "type": "semiExpress",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "17:15",
+     "type": "local",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "17:18",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "17:21",
+     "type": "rapidExpress",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "17:25",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "17:29",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "17:32",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "17:35",
+     "type": "local",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "17:38",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "17:41",
+     "type": "rapidExpress",
+     "dest": "藤沢",
+     "cars": 10
+    },
+    {
+     "time": "17:45",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "17:49",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "17:52",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "17:55",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 6
+    },
+    {
+     "time": "17:58",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "18:01",
+     "type": "rapidExpress",
+     "dest": "片瀬江ノ島",
+     "cars": 10
+    },
+    {
+     "time": "18:05",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "18:09",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "18:12",
+     "type": "semiExpress",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "18:15",
+     "type": "local",
+     "dest": "唐木田",
+     "cars": 8
+    },
+    {
+     "time": "18:18",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "18:21",
+     "type": "rapidExpress",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "18:25",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "18:29",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "18:32",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "18:35",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 10
+    },
+    {
+     "time": "18:38",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "18:41",
+     "type": "rapidExpress",
+     "dest": "片瀬江ノ島",
+     "cars": 10
+    },
+    {
+     "time": "18:45",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 6
+    },
+    {
+     "time": "18:49",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "18:52",
+     "type": "semiExpress",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "18:55",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 10
+    },
+    {
+     "time": "18:58",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "19:01",
+     "type": "rapidExpress",
+     "dest": "片瀬江ノ島",
+     "cars": 10
+    },
+    {
+     "time": "19:05",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "19:09",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "19:12",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "19:15",
+     "type": "local",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "19:18",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "19:21",
+     "type": "rapidExpress",
+     "dest": "片瀬江ノ島",
+     "cars": 10
+    },
+    {
+     "time": "19:25",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 8
+    },
+    {
+     "time": "19:29",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "19:32",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "19:35",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 10
+    },
+    {
+     "time": "19:38",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "19:41",
+     "type": "rapidExpress",
+     "dest": "片瀬江ノ島",
+     "cars": 10
+    },
+    {
+     "time": "19:45",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "19:49",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "19:52",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "19:55",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 10
+    },
+    {
+     "time": "19:58",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "20:01",
+     "type": "rapidExpress",
+     "dest": "片瀬江ノ島",
+     "cars": 10
+    },
+    {
+     "time": "20:05",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "20:09",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "20:12",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "20:15",
+     "type": "local",
+     "dest": "唐木田",
+     "cars": 6
+    },
+    {
+     "time": "20:18",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "20:21",
+     "type": "rapidExpress",
+     "dest": "片瀬江ノ島",
+     "cars": 10
+    },
+    {
+     "time": "20:25",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "20:29",
+     "type": "express",
+     "dest": "小田原",
+     "cars": 10
+    },
+    {
+     "time": "20:32",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "20:35",
+     "type": "local",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "20:38",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "20:41",
+     "type": "rapidExpress",
+     "dest": "片瀬江ノ島",
+     "cars": 10
+    },
+    {
+     "time": "20:45",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 8
+    },
+    {
+     "time": "20:49",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "20:52",
+     "type": "semiExpress",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "20:55",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 8
+    },
+    {
+     "time": "20:58",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "21:00",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "21:05",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "21:10",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 6
+    },
+    {
+     "time": "21:15",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "21:20",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 6
+    },
+    {
+     "time": "21:25",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 8
+    },
+    {
+     "time": "21:30",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "21:35",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 6
+    },
+    {
+     "time": "21:40",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 10
+    },
+    {
+     "time": "21:45",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "21:50",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "21:55",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 10
+    },
+    {
+     "time": "22:00",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "22:05",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "22:10",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 10
+    },
+    {
+     "time": "22:15",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "22:20",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 8
+    },
+    {
+     "time": "22:25",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 6
+    },
+    {
+     "time": "22:30",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "22:35",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 10
+    },
+    {
+     "time": "22:40",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 10
+    },
+    {
+     "time": "22:45",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "22:50",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "22:55",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 10
+    },
+    {
+     "time": "23:00",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "23:05",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 6
+    },
+    {
+     "time": "23:10",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 10
+    },
+    {
+     "time": "23:15",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "23:20",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "23:25",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 6
+    },
+    {
+     "time": "23:30",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "23:35",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 8
+    },
+    {
+     "time": "23:40",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 10
+    },
+    {
+     "time": "23:45",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "23:50",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 6
+    },
+    {
+     "time": "23:55",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 10
+    },
+    {
+     "time": "24:00",
+     "type": "express",
+     "dest": "本厚木",
+     "cars": 10
+    },
+    {
+     "time": "24:05",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 8
+    },
+    {
+     "time": "24:10",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 8
+    },
+    {
+     "time": "24:15",
+     "type": "express",
+     "dest": "新松田",
+     "cars": 10
+    },
+    {
+     "time": "24:20",
+     "type": "local",
+     "dest": "本厚木",
+     "cars": 8
+    },
+    {
+     "time": "24:25",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 8
+    },
+    {
+     "time": "24:30",
+     "type": "express",
+     "dest": "唐木田",
+     "cars": 10
+    },
+    {
+     "time": "24:35",
+     "type": "local",
+     "dest": "向ヶ丘遊園",
+     "cars": 6
+    },
+    {
+     "time": "24:40",
+     "type": "local",
+     "dest": "新百合ヶ丘",
+     "cars": 10
+    }
+   ]
+  }
+ }
+}

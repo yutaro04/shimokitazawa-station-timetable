@@ -1,0 +1,638 @@
+:root {
+  --bg: #1b1d20;
+  --screen: #000;
+  --screen-line: #5a5a5a;
+  --bezel: #ebead5;
+  --bezel-ink: #1a1a1a;
+  --text: #f4f6f8;
+  --text-dim: #9aa3ad;
+  --lcd-text: #fff;
+  --accent-soon: #ffcf3f;
+  --run: #4ade80;
+  --late: #ff8a3d;
+  --ticker: #ffa630;
+  --font: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic UI",
+    "Meiryo", system-ui, sans-serif;
+
+  /* 文字サイズの基準。発車行の文字の大きさで、画面の幅と高さの両方に収まるよう決める。
+     横長: 2 路線を左右に並べる / 縦長: 上下に並べる */
+  --f: min(2.3vw, 3.75vh);
+  --gutter: calc(var(--f) * 0.45);
+
+  /* 発車行と筐体の見出しで共有する列幅（種別・行先・発車時刻・両数・発車まで） */
+  --cols: 27fr 36fr 19fr 7fr 11fr;
+}
+
+@media (max-aspect-ratio: 4/3) {
+  :root {
+    --f: max(15px, min(4.6vw, 1.95vh));
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gutter);
+  min-height: 100vh;
+  min-height: 100dvh;
+  margin: 0;
+  padding: var(--gutter);
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---- 駅名・時計 ---- */
+
+.station {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gutter);
+}
+
+.station-name {
+  display: flex;
+  flex: none;
+  align-items: baseline;
+  gap: 0.5em;
+  font-size: calc(var(--f) * 1.4);
+  line-height: 1.1;
+}
+
+.station-ja {
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.station-en {
+  font-size: 0.4em;
+  color: var(--text-dim);
+  letter-spacing: 0.04em;
+}
+
+.status {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.6em;
+  font-size: calc(var(--f) * 1.3);
+}
+
+/* 天気（平日ダイヤの左） */
+
+.weather {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  margin-right: 0.4em;
+  font-size: 0.45em;
+  white-space: nowrap;
+}
+
+.weather[hidden] {
+  display: none;
+}
+
+.weather-icon {
+  width: 1.9em;
+  height: 1.9em;
+  fill: none;
+  stroke: var(--text);
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.weather-icon.is-sun,
+.weather-icon .icon-sun,
+.weather-icon .icon-bolt {
+  stroke: #ffc44d;
+}
+
+.weather-icon .icon-rain,
+.weather-icon .icon-snow {
+  stroke: #7cc4ff;
+}
+
+.weather-icon .icon-snow {
+  stroke-width: 2.4;
+}
+
+.weather-text {
+  font-weight: 700;
+}
+
+.weather-temp {
+  font-variant-numeric: tabular-nums;
+}
+
+.temp-max {
+  color: #ff8a7a;
+}
+
+.temp-min {
+  color: #7cc4ff;
+}
+
+.temp-sep {
+  margin: 0 0.25em;
+  color: var(--text-dim);
+}
+
+.weather-sun {
+  color: var(--text-dim);
+  font-variant-numeric: tabular-nums;
+}
+
+.sun-sep {
+  display: inline-block;
+  width: 0.6em;
+}
+
+.day-type {
+  padding: 0.15em 0.5em;
+  border: 1px solid var(--text-dim);
+  border-radius: 4px;
+  font-size: 0.45em;
+  white-space: nowrap;
+}
+
+.day-type[data-day-type="holiday"] {
+  border-color: #f87171;
+  color: #fca5a5;
+}
+
+.clock {
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---- 路線 ---- */
+
+.boards {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--gutter) calc(var(--gutter) * 2);
+}
+
+@media (max-aspect-ratio: 4/3) {
+  .boards {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.line {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--gutter) * 0.6);
+  min-width: 0;
+}
+
+.line-title {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  margin: 0;
+  font-size: calc(var(--f) * 0.8);
+  font-weight: 700;
+}
+
+.line-symbol {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1.7em;
+  height: 1.7em;
+  border: 0.14em solid var(--line-color);
+  border-radius: 0.3em;
+  background: #fff;
+  color: #111;
+  font-size: 1em;
+  font-weight: 800;
+  line-height: 1.05;
+}
+
+.line-symbol span:first-child {
+  font-size: 0.45em;
+}
+
+.line-symbol span:last-child {
+  font-size: 0.6em;
+}
+
+/* ---- 運行情報 ---- */
+
+.line-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.2em 0.6em;
+  padding: 0.4em 0.7em;
+  border: 1px solid #2c313a;
+  border-radius: 6px;
+  background: var(--screen);
+  color: var(--text-dim);
+  font-size: calc(var(--f) * 0.55);
+}
+
+.line-info[hidden] {
+  display: none;
+}
+
+.info-label {
+  font-size: 0.8em;
+  letter-spacing: 0.05em;
+}
+
+.info-status {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.info-text {
+  flex-basis: 100%;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.info-time {
+  margin-left: auto;
+  font-size: 0.85em;
+  font-variant-numeric: tabular-nums;
+}
+
+.line-info.is-alert {
+  border-color: var(--accent-soon);
+  background: #2a2208;
+}
+
+.line-info.is-alert .info-label,
+.line-info.is-alert .info-status {
+  color: var(--accent-soon);
+}
+
+/* ---- 発車標（方面ごと） ---- */
+
+.board {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+/* 発車標の上に掲げる方面の案内板 */
+.board-head {
+  padding: 0.25em 0.8em;
+  border-radius: 0.2em 0.2em 0 0;
+  background: var(--line-color);
+  color: #fff;
+  font-size: calc(var(--f) * 0.6);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+/* アイボリーの筐体。四隅のビスは背景の放射グラデーションで描く */
+.bezel {
+  --screw: radial-gradient(circle, #c9c9bd 0 35%, #8e8e86 45% 55%, transparent 60%);
+  --screw-size: calc(var(--f) * 0.55);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0 calc(var(--f) * 0.55) calc(var(--f) * 0.45);
+  border-radius: 0 0 0.35em 0.35em;
+  background:
+    var(--screw) left 0.1em top 0.1em / var(--screw-size) var(--screw-size) no-repeat,
+    var(--screw) right 0.1em top 0.1em / var(--screw-size) var(--screw-size) no-repeat,
+    var(--screw) left 0.1em bottom 0.1em / var(--screw-size) var(--screw-size) no-repeat,
+    var(--screw) right 0.1em bottom 0.1em / var(--screw-size) var(--screw-size) no-repeat,
+    var(--bezel);
+  box-shadow: inset 0 0 0 1px #d4d3bd, 0 0.1em 0.3em rgb(0 0 0 / 0.5);
+}
+
+/* 筐体に印刷された列見出し */
+.bezel-labels {
+  display: grid;
+  grid-template-columns: var(--cols);
+  padding: 0.25em 0.4em;
+  color: var(--bezel-ink);
+  font-size: calc(var(--f) * 0.4);
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.bezel-labels span {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.4em;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.bezel-labels span + span {
+  border-left: 0.12em solid var(--bezel-ink);
+}
+
+.bezel-labels small {
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+/* 黒い液晶面 */
+.rows {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0 0.15em;
+  background: var(--screen);
+  list-style: none;
+}
+
+.row {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.1em;
+  min-height: 1.8em;
+  padding: 0.15em 0;
+  border-top: 1px solid var(--screen-line);
+  color: var(--lcd-text);
+  font-size: var(--f);
+}
+
+.row:first-child {
+  border-top: 0;
+}
+
+.row-main {
+  display: grid;
+  grid-template-columns: var(--cols);
+  align-items: center;
+}
+
+/* 種別: 塗りつぶしの帯に白抜き文字 */
+.type {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.45em;
+  margin: 0 0.35em 0 0.1em;
+  border-radius: 0.08em;
+  background: var(--type-color);
+  box-shadow: 0 0 0.12em var(--type-color);
+  font-size: 0.78em;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.type[data-len="2"] {
+  letter-spacing: 0.6em;
+  text-indent: 0.6em;
+}
+
+.type[data-len="3"] {
+  letter-spacing: 0.2em;
+  text-indent: 0.2em;
+}
+
+.type[data-len="4"] {
+  font-size: 0.7em;
+}
+
+/* 行先: 字数が少ないほど字間を空ける */
+.dest {
+  overflow: hidden;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.dest[data-len="2"] {
+  letter-spacing: 1em;
+  text-indent: 1em;
+}
+
+.dest[data-len="3"] {
+  letter-spacing: 0.4em;
+  text-indent: 0.4em;
+}
+
+.dest[data-len="4"] {
+  letter-spacing: 0.1em;
+  text-indent: 0.1em;
+}
+
+.time {
+  padding-right: 0.3em;
+  font-size: 1.05em;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+/* 両数: 数字の下に「両」 */
+.cars {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.45em;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.cars span:first-child {
+  font-size: 1.25em;
+  font-variant-numeric: tabular-nums;
+}
+
+/* 発車まで: 「あと」「分」は小さく、数字を大きく */
+.until {
+  font-size: 0.4em;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.until span {
+  margin: 0 0.1em;
+  font-size: 1.6em;
+  font-variant-numeric: tabular-nums;
+}
+
+/* 備考行: 走れば間に合う！／間に合わないかも／まもなく発車します。行の幅いっぱいの色付きの帯に、文字を中央に置く */
+.remark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  gap: 0.4em;
+  margin: 0 0.2em;
+  padding: 0.1em 0;
+  border-radius: 0.2em;
+  color: #000;
+  font-size: 0.5em;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.remark.is-soon {
+  background: var(--accent-soon);
+  animation: blink 1s steps(2, start) infinite;
+}
+
+.remark.is-run {
+  background: var(--run);
+}
+
+.remark.is-late {
+  background: var(--late);
+}
+
+.runner {
+  flex: none;
+  width: 1.6em;
+  height: 1.6em;
+  fill: currentColor;
+  stroke: currentColor;
+  stroke-width: 2.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  animation: runner-bob 0.36s ease-in-out infinite alternate;
+}
+
+.runner polyline {
+  fill: none;
+}
+
+.runner circle {
+  stroke: none;
+}
+
+.runner .pose-a {
+  animation: runner-frame 0.36s steps(1) infinite;
+}
+
+.runner .pose-b {
+  animation: runner-frame 0.36s steps(1) -0.18s infinite;
+}
+
+@keyframes runner-frame {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes runner-bob {
+  from {
+    transform: translate(-0.08em, 0.04em);
+  }
+  to {
+    transform: translate(0.08em, -0.04em);
+  }
+}
+
+.row.is-empty {
+  align-items: center;
+  color: var(--text-dim);
+  font-size: calc(var(--f) * 0.6);
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+/* ---- 画面下を流れる案内 ---- */
+
+.ticker {
+  position: relative;
+  overflow: hidden;
+  height: 1.7em;
+  border: 1px solid #2c313a;
+  border-radius: 6px;
+  background: var(--screen);
+  font-size: calc(var(--f) * 0.7);
+}
+
+.ticker[hidden] {
+  display: none;
+}
+
+.ticker-text {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -0.6em;
+  color: var(--ticker);
+  font-weight: 700;
+  line-height: 1.2;
+  white-space: nowrap;
+  will-change: transform;
+}
+
+/* 動きを減らす設定のときは流さずに表示する */
+.ticker.is-static {
+  height: auto;
+  padding: 0.3em 0.6em;
+}
+
+.ticker.is-static .ticker-text {
+  position: static;
+  margin: 0;
+  white-space: normal;
+}
+
+/* ---- エラー ---- */
+
+.error {
+  grid-column: 1 / -1;
+  align-self: start;
+  margin: 0;
+  padding: 0.5em 0.8em;
+  border-left: 3px solid #f87171;
+  background: #1d2127;
+  color: var(--text);
+  font-size: calc(var(--f) * 0.6);
+}
+
+/* ---- 狭い画面（スマホ） ---- */
+
+@media (max-width: 560px) {
+  :root {
+    --gutter: 16px;
+  }
+
+  .weather-sun,
+  .bezel-labels small {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .remark.is-soon,
+  .runner,
+  .runner .pose-a {
+    animation: none;
+  }
+
+  .runner .pose-b {
+    display: none;
+  }
+}
