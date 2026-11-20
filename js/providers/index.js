@@ -1,15 +1,13 @@
-// 設定に応じてプロバイダを選び、どれを使っても同じ形のデータを返す。
+// 時刻表データ（data/*.json）を読み込み、発車順に並べて返す。
 //
 // 返り値: { [路線ID]: { source, updated, directions: { [方面ID]: { weekday: Train[], holiday: Train[] } } } }
 // Train: { time: "HH:MM", type: 種別キー, dest: 行先（日本語）, cars?: 両数 }
 
 import { loadStatic } from "./static.js";
-import { loadOdpt } from "./odpt.js";
 import { parseTime } from "../timetable.js";
 
 export async function loadTimetables(lines, config) {
-  const data =
-    config.provider === "odpt" ? await loadOdpt(lines, config.odpt) : await loadStatic(lines);
+  const data = await loadStatic(lines);
 
   // 深夜帯（24 時以降）を含めて発車順に並べておく
   const byTime = (a, b) =>

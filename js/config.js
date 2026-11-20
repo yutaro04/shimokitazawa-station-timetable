@@ -1,18 +1,11 @@
 // 表示とデータ取得の設定。
-// URL パラメータでも上書きできる: ?provider=odpt&key=YOUR_CONSUMER_KEY
 
 export const config = {
-  // "static": data/*.json を読む / "odpt": ODPT API から直接取得する
-  provider: "static",
-
-  odpt: {
-    endpoint: "https://api.odpt.org/api/v4",
-    // API キーはリポジトリにコミットしないこと。URL の ?key= で渡すのがおすすめ。
-    consumerKey: "",
-  },
-
-  // 運行情報（odpt:TrainInformation）を取り直す間隔（秒）。consumerKey があるときだけ取得する。
-  trainInformationSeconds: 90,
+  // 運行情報を返す ODPT 中継サーバー（worker/）の URL。空なら運行情報を表示しない。
+  // URL パラメータ ?relay= でも指定できる（動作確認用）。
+  trainInformationUrl: "https://shimokitazawa-odpt-relay.whitepenguinmatsuo.workers.dev/train-information",
+  // 中継サーバーへ取りに行く間隔（秒）。中継サーバー側で 30〜120 秒キャッシュしている
+  trainInformationSeconds: 60,
 
   // 発車まで「あと◯分」がこの範囲のとき「走れば間に合う！」を表示する
   runToCatchMinutes: { from: 2, to: 3 },
@@ -39,10 +32,6 @@ export function resolveConfig(search = location.search) {
   const params = new URLSearchParams(search);
   return {
     ...config,
-    provider: params.get("provider") ?? config.provider,
-    odpt: {
-      ...config.odpt,
-      consumerKey: params.get("key") ?? config.odpt.consumerKey,
-    },
+    trainInformationUrl: params.get("relay") ?? config.trainInformationUrl,
   };
 }

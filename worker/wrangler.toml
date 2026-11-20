@@ -1,0 +1,14 @@
+# ODPT 中継サーバー（Cloudflare Workers）
+#
+#   cd worker
+#   npx wrangler login
+#   npx wrangler secret put ODPT_CONSUMER_KEY   # チャレンジ用のアクセストークンを入力
+#   npx wrangler deploy
+
+name = "shimokitazawa-odpt-relay"
+main = "src/index.js"
+compatibility_date = "2026-11-01"
+
+[vars]
+# ブラウザからの呼び出しを許可する配信元（カンマ区切り）
+ALLOWED_ORIGINS = "https://yutaro04.github.io,http://localhost:8080"

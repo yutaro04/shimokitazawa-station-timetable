@@ -1,14 +1,5 @@
-// ODPT の odpt:TrainInformation から路線ごとの運行情報を取得する。
-// 時刻表のプロバイダとは独立していて、consumerKey があれば static でも使える。
-//
-// 注意: 小田急・京王の運行情報が ODPT で取得できるか、路線 ID が正しいかは未確認。
-
-// ODPT の多言語文字列は { ja, en } のオブジェクトか、ただの文字列で返ってくる
-function jaString(value) {
-  if (!value) return null;
-  if (typeof value === "string") return value;
-  return value.ja ?? value.en ?? null;
-}
+// 運行情報を ODPT 中継サーバー（worker/）から取得する。
+// API キーは中継サーバーにだけ置き、ブラウザからは ODPT を直接呼ばない。
 
 // 状況（status）があればそれで、なければ本文で判定する
 function isNormal(status, text) {
@@ -16,44 +7,30 @@ function isNormal(status, text) {
   return /平常|通常/.test(status ?? text);
 }
 
-// records: ODPT のレスポンス配列。路線を指定しない（会社全体の）情報は、その会社の全路線に表示する。
-export function convertTrainInformation(lines, records) {
+// items: 中継サーバーが返す { operator, railway, status, text, date, valid } の配列。
+// 路線を指定しない（会社全体の）情報は、その会社の全路線に表示する。
+// 運行情報を提供していない路線（odpt.trainInformation が false）は対象外。
+export function convertTrainInformation(lines, items, now = Date.now()) {
   const result = {};
   for (const line of lines) {
-    const record = records.find(
-      (r) =>
-        r["odpt:operator"] === line.odpt.operator &&
-        (!r["odpt:railway"] || r["odpt:railway"] === line.odpt.railway),
+    if (!line.odpt.trainInformation) continue;
+    const item = items.find(
+      (i) =>
+        i.operator === line.odpt.operator &&
+        (!i.railway || i.railway === line.odpt.railway) &&
+        // 有効期限を過ぎた情報は使わない
+        !(i.valid && Date.parse(i.valid) < now),
     );
-    if (!record) {
-      result[line.id] = null;
-      continue;
-    }
-    const status = jaString(record["odpt:trainInformationStatus"]);
-    const text = jaString(record["odpt:trainInformationText"]);
-    result[line.id] = {
-      normal: isNormal(status, text),
-      status,
-      text,
-      date: record["dc:date"] ?? null,
-    };
+    result[line.id] = item
+      ? { normal: isNormal(item.status, item.text), status: item.status, text: item.text, date: item.date }
+      : null;
   }
   return result;
 }
 
-export async function fetchTrainInformation(lines, { endpoint, consumerKey }) {
-  const operators = [...new Set(lines.map((l) => l.odpt.operator))];
-  const records = (
-    await Promise.all(
-      operators.map(async (operator) => {
-        const url = new URL(`${endpoint}/odpt:TrainInformation`);
-        url.searchParams.set("odpt:operator", operator);
-        url.searchParams.set("acl:consumerKey", consumerKey);
-        const res = await fetch(url);
-        if (!res.ok) throw new Error(`運行情報の取得に失敗 (${operator}): HTTP ${res.status}`);
-        return res.json();
-      }),
-    )
-  ).flat();
-  return convertTrainInformation(lines, records);
+export async function fetchTrainInformation(lines, url) {
+  const res = await fetch(url, { cache: "no-store" });
+  if (!res.ok) throw new Error(`運行情報の取得に失敗: HTTP ${res.status}`);
+  const { items } = await res.json();
+  return convertTrainInformation(lines, items);
 }

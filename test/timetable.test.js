@@ -1,8 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { dayType, parseTime, serviceDay, upcomingDepartures } from "../js/timetable.js";
-import { convertStationTimetables } from "../js/providers/odpt.js";
-import { LINES } from "../js/lines.js";
 
 const START = 3;
 const tables = {
@@ -44,21 +42,3 @@ test("終電間際は翌運行日のダイヤ（土休日）に続く", () => {
   assert.equal(after[0].dest, "W-last");
 });
 
-test("ODPT のレスポンスを共通形式に変換する", () => {
-  const odakyu = LINES.find((l) => l.id === "odakyu");
-  const data = convertStationTimetables(odakyu, [
-    {
-      "odpt:railDirection": "odpt.RailDirection:Inbound",
-      "odpt:calendar": "odpt.Calendar:Weekday",
-      "odpt:stationTimetableObject": [
-        {
-          "odpt:departureTime": "10:03",
-          "odpt:trainType": "odpt.TrainType:Odakyu.RapidExpress",
-          "odpt:destinationStation": ["odpt.Station:Odakyu.Odawara.Shinjuku"],
-        },
-      ],
-    },
-  ]);
-  assert.deepEqual(data.directions.up.weekday, [{ time: "10:03", type: "rapidExpress", dest: "新宿" }]);
-  assert.deepEqual(data.directions.down.weekday, []);
-});

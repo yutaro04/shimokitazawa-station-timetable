@@ -33,23 +33,25 @@ let weather = null;
 const escapeHtml = (s) =>
   String(s).replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
 
-function trainInformationHtml(lineId) {
-  if (trainInformation === undefined) return "";
+function trainInformationHtml(line) {
+  // 運行情報を提供していない路線（小田急）は欄を出さない
+  if (trainInformation === undefined || !line.odpt.trainInformation) return "";
   if (trainInformation === null) {
     return `<span class="info-label">運行情報</span>
       <span class="info-status">取得できません</span>`;
   }
-  const info = trainInformation[lineId];
+  const info = trainInformation[line.id];
   if (!info) return "";
   const status = info.status ?? (info.normal ? "平常運転" : "");
   const text = info.normal ? "" : (info.text ?? "");
+  // ODPT のガイドラインに従い、データの生成時刻（dc:date）を常に表示する
   const updated = info.date
     ? new Date(info.date).toLocaleTimeString("ja-JP", { hour: "2-digit", minute: "2-digit" })
     : "";
   return `<span class="info-label">運行情報</span>
     <span class="info-status">${escapeHtml(status)}</span>
     ${text ? `<span class="info-text">${escapeHtml(text)}</span>` : ""}
-    ${!info.normal && updated ? `<span class="info-time">${updated} 発表</span>` : ""}`;
+    ${updated ? `<span class="info-time">${updated} 更新</span>` : ""}`;
 }
 
 // 走る人のピクトグラム。2 つのポーズを交互に表示して走っているように見せる。
@@ -158,7 +160,7 @@ function render(timetables, holidays, now) {
 
   for (const line of LINES) {
     const infoEl = boardsEl.querySelector(`[data-line-info="${line.id}"]`);
-    const infoHtml = trainInformationHtml(line.id);
+    const infoHtml = trainInformationHtml(line);
     if (infoEl.dataset.html !== infoHtml) {
       infoEl.innerHTML = infoHtml;
       infoEl.dataset.html = infoHtml;
@@ -199,8 +201,11 @@ function tickerMessages() {
     if (!info || info.normal) return [];
     return [`【${line.name}】${[info.status, info.text].filter(Boolean).join("　")}`];
   });
-  const credit = weather ? `天気予報: ${weather.location}（${weather.source}）` : "";
-  return [...alerts, ...config.tickerMessages, sampleNotice, credit].filter(Boolean);
+  const credits = [
+    trainInformation ? "運行情報: 公共交通オープンデータセンター" : "",
+    weather ? `天気予報: ${weather.location}（${weather.source}）` : "",
+  ];
+  return [...alerts, ...config.tickerMessages, sampleNotice, ...credits].filter(Boolean);
 }
 
 // 右端から左端まで 1 回流し終えるたびに、内容を作り直してもう一度流す
@@ -227,11 +232,11 @@ function runTicker() {
 
 async function pollTrainInformation() {
   try {
-    trainInformation = await fetchTrainInformation(LINES, config.odpt);
+    trainInformation = await fetchTrainInformation(LINES, config.trainInformationUrl);
   } catch (err) {
     console.warn(err);
-    // 一度でも取得できていれば前回の内容を表示し続ける
-    if (trainInformation === undefined) trainInformation = null;
+    // 最新でない運行情報は表示しない（ODPT のガイドライン）ので、前回の内容も捨てる
+    trainInformation = null;
   }
 }
 
@@ -257,7 +262,7 @@ async function start() {
   document.addEventListener("keydown", (e) => {
     if (e.key === "f" || e.key === "F") toggleFullscreen();
   });
-  if (config.odpt.consumerKey) {
+  if (config.trainInformationUrl) {
     pollTrainInformation();
     setInterval(pollTrainInformation, config.trainInformationSeconds * 1000);
   }

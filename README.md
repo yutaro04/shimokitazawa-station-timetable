@@ -19,10 +19,7 @@ python3 -m http.server 8080
 
 ## 時刻表データ
 
-| プロバイダ | 設定 | 説明 |
-| --- | --- | --- |
-| `static`（既定） | `js/config.js` の `provider: "static"` | `data/odakyu.json` と `data/inokashira.json` を読む |
-| `odpt` | `?provider=odpt&key=<consumerKey>` | [ODPT](https://developer.odpt.org/) の `odpt:StationTimetable` からブラウザで直接取得する |
+時刻表は `data/odakyu.json` と `data/inokashira.json` から読み込みます。
 
 | 路線 | 同梱データ |
 | --- | --- |
@@ -46,14 +43,6 @@ python3 -m http.server 8080
   ```
 
 - **手で書く場合**: 下の形式で `data/<路線ID>.json` を編集します。ダイヤ改正のたびに更新が必要です。
-- **ODPT から取り込む場合**: API キーを取得したうえで、次を実行します。保存した JSON は `static` プロバイダでそのまま使えるので、ブラウザに API キーを渡さずに済みます。
-
-  ```sh
-  ODPT_CONSUMER_KEY=xxxx npm run fetch:odpt
-  ```
-
-  このスクリプトは井の頭線の `data/inokashira.json` も上書きします。
-  小田急・京王の下北沢駅のデータが ODPT で公開されているか、駅 ID（`js/lines.js` の `odpt.station`）が正しいかはまだ確認していません。取得に失敗したら、ODPT のデータカタログで確認して直してください。
 
 ### データ形式
 
@@ -96,19 +85,40 @@ python3 -m http.server 8080
 - 遅延などの運行情報と、サンプルデータの注意書きは自動で加わります。
 - OS で動きを減らす設定にしている場合は、流さずにそのまま表示します。
 
-## 運行情報
+## 運行情報（ODPT 中継サーバー）
 
-ODPT の consumerKey を渡すと、路線ごとの運行情報（`odpt:TrainInformation`）を 90 秒おきに取得して、路線名の下に表示します。時刻表のプロバイダが `static` のままでも使えます。
+京王井の頭線の運行情報を、公共交通オープンデータチャレンジ 2026 のデータ（`odpt:TrainInformation`）から取得して、路線名の下に 1 行で表示します。小田急は ODPT で運行情報が提供されていないため表示しません。
 
-```
-http://localhost:8080/?key=<consumerKey>
-```
+ブラウザから ODPT を直接呼ぶと API キーが見えてしまうため、Cloudflare Workers の中継サーバー（`worker/`）を経由します。
 
-- 平常時は「運行情報 平常運転」とだけ表示します。遅延や運転見合わせのときは黄色の枠にして、本文と発表時刻も表示します。画面下を流れる案内にも加わります。
-- 対象は小田急小田原線と京王井の頭線だけです（`js/lines.js` の `odpt.railway`）。路線を指定していない会社全体の情報も表示します。江ノ島線や多摩線の情報は出しません。
-- 取得に失敗したときは、前回取得した内容を表示したままにします。一度も取得できていなければ「取得できません」と表示します。
-- consumerKey がなければ、運行情報の欄自体を出しません。
-- 小田急・京王の運行情報が ODPT で取得できるか、路線 ID が正しいかは、まだ確認していません。
+- API キーは Worker のシークレットにだけ置きます。リポジトリやページには出しません
+- ODPT の結果を有効期限（`dct:valid`）までの間、30〜120 秒使い回します。閲覧者が増えても ODPT への呼び出しは増えません
+- 返すのは表示に必要な項目（運行状況・本文・生成時刻・有効期限）だけです
+- ブラウザからの呼び出しは、`wrangler.toml` の `ALLOWED_ORIGINS` に書いた配信元からだけ許可します
+
+### 中継サーバーを公開する
+
+1. 公共交通オープンデータチャレンジ 2026 にエントリーし、チャレンジ用のアクセストークンを確認する
+2. Cloudflare のアカウントを作る
+3. 次を実行する（`secret put` ではアクセストークンを入力します）
+
+   ```sh
+   cd worker
+   npx wrangler login
+   npx wrangler secret put ODPT_CONSUMER_KEY
+   npx wrangler deploy
+   ```
+
+4. 表示された URL に `/train-information` を付けたものを、`js/config.js` の `trainInformationUrl` に設定する（公開中の中継サーバー: `https://shimokitazawa-odpt-relay.whitepenguinmatsuo.workers.dev`）
+
+動作確認だけなら、`?relay=<中継サーバーの URL>/train-information` を付けて開いても表示できます。
+
+### 表示
+
+- 平常時は「運行情報 平常運転」と表示します。遅延や運転見合わせのときは黄色の枠にして、本文も表示します。全文は画面下を流れる案内にも加わります
+- ODPT のガイドラインに従い、データの生成時刻（`dc:date`）を「◯:◯ 更新」として常に表示します
+- 取得に失敗したときや有効期限を過ぎたときは、古い内容を残さず「取得できません」と表示します
+- `trainInformationUrl` が空なら、運行情報の欄自体を出しません
 
 ## ダイヤの判定
 
@@ -125,13 +135,14 @@ js/
   config.js            設定（URL パラメータで上書き可）
   lines.js             路線・方面・種別の定義、駅名のローマ字表記（ODPT 用）
   timetable.js         運行日・ダイヤ種別の判定、次発の抽出
-  trainInformation.js  運行情報の取得
+  trainInformation.js  運行情報の取得（中継サーバー経由）
   weather.js           天気の表示
   main.js              描画
-  providers/           static / odpt の読み込みと共通形式への変換
+  providers/           時刻表 JSON の読み込み
 data/                  時刻表・天気の JSON
-scripts/               京王・小田急の PDF 取り込み・ODPT 取り込み・天気取得
+scripts/               京王・小田急の PDF 取り込み・天気取得
 .github/workflows/     GitHub Pages への公開と毎朝の天気更新
+worker/                ODPT 中継サーバー（Cloudflare Workers）
 test/                  node --test によるテスト
 ```
 
