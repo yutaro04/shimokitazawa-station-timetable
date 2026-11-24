@@ -1,12 +1,12 @@
 {
  "location": "世田谷区",
- "date": "2026-11-23",
- "weatherCode": 0,
- "weather": "快晴",
- "tempMax": 13.3,
- "tempMin": 4.1,
- "sunrise": "06:24",
+ "date": "2026-11-24",
+ "weatherCode": 63,
+ "weather": "雨",
+ "tempMax": 17.7,
+ "tempMin": 6.5,
+ "sunrise": "06:25",
  "sunset": "16:30",
  "source": "Open-Meteo.com",
- "fetchedAt": "2026-11-23T00:40:12.049Z"
+ "fetchedAt": "2026-11-24T04:40:33.209Z"
 }
